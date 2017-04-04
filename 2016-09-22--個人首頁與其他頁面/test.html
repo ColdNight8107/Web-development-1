@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>網頁設計-範例一</title>
+    <style media="screen">
+      img{
+        margin: 5px 20px;
+        border-radius: 20px;
+        border: 3px red solid;
+        border-style: outset;
+        box-shadow: -10px 10px 10px rgba(255, 0, 0,0.7);
+        filter: grayscale(60%);
+        opacity: .8;
+        transition: 2s;
+      }
+      h2{
+        color: red;
+        font-size: 28px;
+      }
+      p{
+        line-height: 150%;
+      }
+      img:hover{
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+      body{
+        background-image: url("https://images.unsplash.com/photo-1475436764017-7db9651565b6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d93e07b1e811048b710b759b2dfbe933");
+        background-position: center;
+        background-repeat: no-repeat;
+        /*background-size: auto;*//*背景大小*/
+      }
+      div.container{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>城市圖片</h2>
+      <img src="http://lorempixel.com/200/200/city" alt="城市圖片" align="left"
+       width="200" height="200"/>
+      <p>
+      高雄市是中華民國的直轄市，位於臺灣西南部，由原高雄直轄市與原高雄縣於2010年12月25日合併而來。
+      其轄域東北至中央山脈以及玉山主峰，西南至南海上之南沙太平島、中洲島，以及東沙群島。
+      順時針方向與臺南市、嘉義縣、南投縣、花蓮縣、臺東縣、屏東縣等縣市相鄰。
+      </p>
+    </div>
+  </body>
+</html>
